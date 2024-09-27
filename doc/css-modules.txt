@@ -1,0 +1,3 @@
+import classes from "./main-header.module.css";
+
+это модуль css, модули ограничены пространством определенного компонента

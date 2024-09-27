@@ -1,0 +1,12 @@
+https://nextjs.org/docs/app/api-reference/components/image
+
+для lazy load, для response, лучше использовать этот компонент
+
+ <Image src={logoImg} alt="A plate with food on it" />
+ - такой код мало того что сделает image lazy load,
+ - еще добавить width и height картинке
+ - и так-же добавляется атрибут srcset который автоматически загружает картинку нужного размера на разных девайсах.
+ - Так-же такая картинка будет выведена в том формате в котором лучше для браузера пользователя. Тоесть автоматически в формате webp.
+
+ <Image src={logoImg} alt="A plate with food on it" priority />
+ priority - как я понял отключает lazy load
