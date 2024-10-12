@@ -10,3 +10,10 @@ https://nextjs.org/docs/app/api-reference/components/image
 
  <Image src={logoImg} alt="A plate with food on it" priority />
  priority - как я понял отключает lazy load
+
+ // ===========================
+
+ <Image src={image} alt={title} fill />
+ fill - используется когда не ясно заранее (in advance) измерение (dimension)
+
+ fill - Заполняет все доступное имеющееся пространство
