@@ -1,0 +1,4 @@
+npm i better-sqlite3
+
+// ===== создаем и заполняем базу
+node initdb.js
