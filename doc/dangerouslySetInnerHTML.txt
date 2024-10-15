@@ -1,0 +1,8 @@
+ свойство dangerouslySetInnerHTML используется для вставки HTML-кода прямо в DOM. Это свойство опасно, потому что оно может привести к уязвимостям, связанным с внедрением вредоносного кода (XSS-атакам)
+
+<p
+className={classes.instructions}
+dangerouslySetInnerHTML={{
+  __html: meal.instructions,
+}}
+></p>
